@@ -1,0 +1,179 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+#imagem_fundo {
+    background: url(padrão\ Killer\ queen.webp);
+    height: 100%;
+    text-align: center;
+    background-size: cover;
+}
+#titulo {
+    color: white;
+    padding-top: 10%;
+    font-size: 70px;
+    line-height: 1;
+
+}
+
+#subtitulo {
+    color: white;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+#acao {
+    color: white;
+    border: 2px white solid;
+    padding: 10px 20px 10px 20px;
+}
+
+.coluna {
+    float: left;
+    padding: 3% 5%;
+    position: relative;
+}
+
+.dois {
+    width: 40%;
+}
+
+.centralizado {
+    text-align: center;
+}
+
+.justificado {
+    text-align: justify;
+}
+
+section {
+    padding: 20px;
+    float: left;
+    width: 100%
+}
+
+.destaque {
+    color: white;
+    background-color: rgb(73, 33, 100);
+}
+
+.pintura {
+    color: rgb(0, 0, 0);
+    background-color: rgb(202, 211, 235);
+}
+.quatro {
+    width: 15%;
+}
+
+.icone {
+    width: 200px;
+}
+
+#selecao {
+    background-color: rgb(197, 162, 74);
+}
+
+.tres {
+    width: 29%;
+    padding: 0 2%;
+}
+
+.imgeco {
+    width: 70%;
+    height: 30%;
+}
+
+.imagi {
+    width: 98%;
+    height: 59%
+    
+}
+
+.amarelo {
+    width: 15%;
+    
+}
+
+.emoji {
+    width: 30%;
+}
+
+.colores {
+    background-color: rgb(197, 162, 74);
+    
+}
+
+.canto{
+    text-align: right;
+}
+
+
+.dois {
+    width: 40%;
+}
+
+.centralizado2 {
+    color: white;
+    text-align: center;
+}
+
+
+#menu {
+    float: right;
+    margin-right: 5%;
+    list-style: none;
+    margin-top: 0px;
+}
+
+li {
+    float: left;
+    padding: 20 10 20 10;
+}
+
+li:hover {
+    background-color: cornflowerblue;
+}
+
+header {
+    background-color: black;
+    color: white;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+}
+
+#logo {
+    width: 27;
+    position: absolute;
+    top: 10px;
+    margin-left: 5%;
+}
+
+@media all and (max-width: 768px) {
+    #menu {
+    visibility: hidden;
+    }
+
+    .coluna, .dois, .tres, .quatro {
+    display: block;
+    width: 80%;
+    padding: 0;
+    margin: 10px auto;
+    float: none;
+    }
+    
+    #logodiv {
+    width: 100%;
+    position: relative;
+    text-align: center;
+    padding: 0px;
+    }
+
+    #logo {
+    margin-left: 0px;
+    transform: translateX(-50%);
+    }
+}
+
